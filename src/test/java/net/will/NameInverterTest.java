@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
- * Video Book: Clean Code Fundamentals
- * Robert C. Martin
+ * <h3>Video Book: Clean Code Fundamentals</h3>
+ * <p>Robert C. Martin</p>
  *
- * Advanced Test-Driven Development (TDD), Part 1
+ * <p>Advanced Test-Driven Development (TDD), Part 1</p>
  */
 public class NameInverterTest {
     private NameInverter nameInverter;
