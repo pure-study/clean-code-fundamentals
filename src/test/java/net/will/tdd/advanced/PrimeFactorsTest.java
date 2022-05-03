@@ -1,4 +1,4 @@
-package net.will;
+package net.will.tdd.advanced;
 
 import org.junit.jupiter.api.Test;
 

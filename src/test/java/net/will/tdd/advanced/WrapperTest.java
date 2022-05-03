@@ -1,4 +1,4 @@
-package net.will;
+package net.will.tdd.advanced;
 
 import org.junit.jupiter.api.Test;
 
@@ -21,6 +21,7 @@ public class WrapperTest {
 
         assertEquals("x\nx", wrap("x x", 1));
         assertEquals("x\nxx", wrap("x xx", 3));
+        assertEquals("xxx\nx\nxxx", wrap("xxx x xxx", 3));
         assertEquals("four\nscore\nand\nseven\nyears\nago our\nfathers\nbrought\nforth\nupon\nthis\ncontine\nnt",
                 wrap("four score and seven years ago our fathers brought forth upon this continent", 7));
     }
