@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  *
  * <p>Test-Driven Development (TDD), Part 2
  */
-public class BowlingTest {
+public class BowlingGameTest {
     private BowlingGame bowlingGame;
 
     @BeforeEach
